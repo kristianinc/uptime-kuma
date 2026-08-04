@@ -20,11 +20,16 @@ class RenuSMS extends NotificationProvider {
             };
             config = this.getAxiosConfigWithProxy(config);
 
+            const contacts = String(notification.renusmsPhoneNumber || "")
+                .split(",")
+                .map((n) => n.trim())
+                .filter(Boolean);
+
             await axios.post(
                 "https://sms-api.renu.ac.ug/api/developer/send",
                 {
                     message: msg,
-                    contacts: [notification.renusmsPhoneNumber],
+                    contacts,
                 },
                 config
             );

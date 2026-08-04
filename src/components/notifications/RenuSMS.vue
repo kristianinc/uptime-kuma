@@ -18,7 +18,7 @@
             v-model="$parent.notification.renusmsPhoneNumber"
             type="text"
             class="form-control"
-            placeholder="2567XXXXXXXX"
+            placeholder="2567XXXXXXXX or 2567AAA,2567BBB"
             required
         />
         <div class="form-text">{{ $t("renusmsPhoneNumberDescription") }}</div>
