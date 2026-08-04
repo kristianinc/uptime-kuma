@@ -972,6 +972,8 @@
     "PushDeer Key": "PushDeer Key",
     "SpugPush Template Code": "Template Code",
     "wayToGetClickSendSMSToken": "You can get API Username and API Key from {here}.",
+    "wayToGetRenuSMSToken": "You can get your RENU SMS API token from {here}.",
+    "renusmsPhoneNumberDescription": "Recipient number with country code, without + or 00 (e.g. 2567XXXXXXXX).",
     "Custom Monitor Type": "Custom Monitor Type",
     "Google Analytics ID": "Google Analytics ID",
     "Analytics Type": "Analytics Type",
